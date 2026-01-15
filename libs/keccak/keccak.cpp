@@ -7,6 +7,7 @@
 
 #include "./hash_types.hpp"
 
+
 #if _MSC_VER
 #include <string.h>
 #define __builtin_memcpy memcpy
