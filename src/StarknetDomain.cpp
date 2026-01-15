@@ -3,6 +3,7 @@
 #include "StarknetDomain.hpp"
 #include "UtilsImpl.hpp"
 
+
 namespace signer
 {
 using namespace starkware;
