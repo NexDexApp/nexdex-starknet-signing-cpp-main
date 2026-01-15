@@ -2,6 +2,7 @@
 #include "UtilsImpl.hpp"
 
 namespace signer
+
 {
 
 starkware::PrimeFieldElement HashableIface::hash() const
