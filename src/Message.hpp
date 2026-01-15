@@ -4,6 +4,7 @@
 #include "HashableIface.hpp"
 
 namespace signer
+
 {
 
 class Message: public HashableIface
