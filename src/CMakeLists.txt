@@ -3,6 +3,7 @@ project(MessageSignature CXX)
 
 file(GLOB MessageSignatureSources *.cpp *.hpp)
 
+
 add_library(signer STATIC ${MessageSignatureSources})
 
 target_include_directories(signer PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
