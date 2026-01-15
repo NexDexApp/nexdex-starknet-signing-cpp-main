@@ -2,6 +2,7 @@
 
 #include "EncodableIface.hpp"
 
+
 #include <starkware/algebra/prime_field_element.h>
 
 namespace signer
