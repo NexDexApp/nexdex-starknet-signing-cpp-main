@@ -7,6 +7,7 @@
 #include <curlpp/Easy.hpp>
 #include <curlpp/Options.hpp>
 
+
 // Callback function to write the response to a string
 size_t writeCallback(char* ptr, size_t size, size_t nmemb, std::string* response) {
     size_t totalSize = size * nmemb;
