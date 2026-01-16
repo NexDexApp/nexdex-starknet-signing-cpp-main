@@ -1,5 +1,6 @@
 @echo off
 
+
 REM Check if nlohmann_json_DIR argument is provided
 if "%1"=="" (
     echo Usage: %0 ^<nlohmann_json_DIR^>
@@ -21,4 +22,5 @@ cd ..\..\build
 REM Generate Visual Studio project files for the whole project
 cmake -G "Visual Studio 17 2022" -DCMAKE_BUILD_TYPE=Release -Dnlohmann_json_DIR="%nlohmann_json_DIR%" ..
 REM Build the whole project using Visual Studio's MSBuild
+
 cmake --build . --target test
