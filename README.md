@@ -5,6 +5,7 @@
 This C++ library is used to sign requests for authentication and orders sent to NexDex.
 The signature is passed with every authertication request and order and proves that whoever sent this it has access to a private key of the account.
 
+
 ## Why is it useful
 Trading programs written in C++ provide superior performance vs other languages. For that reason most of low latency traders use C++.
 This library will allow them to integrate with NexDex and improve quality of liquidity on NexDex' order books.
