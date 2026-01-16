@@ -2,6 +2,7 @@
 if [ -z "$1" ]; then
     echo "Usage: $0 <nlohmann_json_DIR>"
     exit 1
+    
 fi
 
 nlohmann_json_DIR="$1"
