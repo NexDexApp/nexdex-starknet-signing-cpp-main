@@ -6,7 +6,6 @@ if "%1"=="" (
     echo Usage: %0 ^<nlohmann_json_DIR^>
     exit /b 1
 )
-
 REM Set the provided nlohmann_json_DIR as a variable
 set "nlohmann_json_DIR=%1"
 
@@ -24,3 +23,4 @@ cmake -G "Visual Studio 17 2022" -DCMAKE_BUILD_TYPE=Release -Dnlohmann_json_DIR=
 REM Build the whole project using Visual Studio's MSBuild
 
 cmake --build . --target test
+
