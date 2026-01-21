@@ -6,7 +6,6 @@ if [ -z "$1" ]; then
 fi
 
 nlohmann_json_DIR="$1"
-
 # Building from zero everytime.
 rm -rf build && mkdir build
 
