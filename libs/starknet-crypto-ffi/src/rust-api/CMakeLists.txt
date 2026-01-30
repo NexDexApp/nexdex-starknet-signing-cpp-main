@@ -4,7 +4,7 @@ project(StarkwareRustApi LANGUAGES CXX)
 
 include(FetchContent)
 
-FetchContent_Declare(
+FetchContent_Declare( 
         Corrosion
         GIT_REPOSITORY https://github.com/corrosion-rs/corrosion.git
         GIT_TAG v0.4 # Optionally specify a commit hash, version tag or branch here
